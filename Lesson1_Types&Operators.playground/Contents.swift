@@ -31,3 +31,43 @@ var myFirstSwiftString = "mo' money"
 var mySecondSwiftString = "mo problems"
 var concatenatedString = myFirstSwiftString + ", " + mySecondSwiftString
 concatenatedString.dynamicType
+
+
+// Operators 
+// Example 1 - Comparison operators 
+
+let ticketPrice = 7.5
+let allowance = 10.0
+var iceCreamPrice = 3.0
+
+var pic = UIImage(named: "Chloe.png")
+
+if allowance >= ticketPrice + iceCreamPrice {
+    print("Let's go to the movie")
+} else {
+    print("Let's watch a movie at home and eat ice cream")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
