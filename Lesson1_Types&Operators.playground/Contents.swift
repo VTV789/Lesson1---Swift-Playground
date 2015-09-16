@@ -4,8 +4,6 @@ import UIKit
 import Foundation
 
 // Example 1: Bool, Int Float Double
-
-
 var str = "Hello, playground"
 
 class LightSwith {
@@ -19,9 +17,17 @@ class LightSwith {
 var livingRoomSwitch = LightSwith()
 livingRoomSwitch.on
 
-// Example 2: Strings and Characters
 
-var dollarSign: Character = "S"
-var myFirstSwiftString: String = "mo' money"
-var mySecondSwiftString: String = "mo problems"
+
+// Example 2: Strings and Characters
+//var dollarSign: Character = "S"
+//var myFirstSwiftString: String = "mo' money"
+//var mySecondSwiftString: String = "mo problems"
+//var concatenatedString = myFirstSwiftString + ", " + mySecondSwiftString
+
+// remove all type indicators for each variables (the compilers has no problem inferring the correct type)
+var dollarSign = "S"
+var myFirstSwiftString = "mo' money"
+var mySecondSwiftString = "mo problems"
 var concatenatedString = myFirstSwiftString + ", " + mySecondSwiftString
+concatenatedString.dynamicType
