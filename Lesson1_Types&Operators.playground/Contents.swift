@@ -50,7 +50,7 @@ if allowance >= ticketPrice + iceCreamPrice {
 
 // Example 2 Logical operators 
 var hungry = true
-var veetarian = false
+var vegetarian = false
 
 if !hungry { //reverse the condition by throwing in an exclamation point
     print("Let's eat")
@@ -58,9 +58,14 @@ if !hungry { //reverse the condition by throwing in an exclamation point
     print("Let's wait.")
 }
 
-
-
-
+// and operator
+if hungry && !vegetarian {
+    print("Let's eat steak!")
+} else if hungry && vegetarian {
+    print("How about pumpkin curry?")
+} else {
+    print("nevermind")
+}
 
 
 
