@@ -35,3 +35,11 @@ var frankiePic = UIImage(named: "frankie.jpg")
 lbsPerDay = 0.25
 dogName = "Lil Frankie"
 doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth)lbs of dog food per moth"
+
+/* if we want calculate the pounds per month eaten by little Frankie
+
+All we have to do is:
+    1. change the value of pounds per day: lbsPerDay = 0.25
+    2. reassign the dog name vaiable: dogName = "Lil Fankie"
+    3. reevaluate our doggie diet string: doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth)lbs of dog food per month"
+*/
