@@ -78,16 +78,28 @@ if hungry || thereIsPie {
 // Example 3 - Ternary conditional 
 // A theoretical example from Apple's Swift Programming Language. These two statements are equivalent: 
 
-//if question {
+// This statement ...
+// if question {
 //    answer1
-//} else {
+// } else {
 //    answer2
-//}
+// }
 
 // question 2 answer1 : answer2
 
+// Could be rewritten like so ...
+hungry ? print("Let's eat!") : print("Let's wait")
+
+// THis statement ...
+// if hungry || thereIsPie {
+//     print("Let's eat!")
+// } else {
+//     print("Let's wait.")
+// }
 
 
+// Could be rewritten like so ...
+hungry || thereIsPie ? print("Let's eat!") : print("Let's wait.")
 
 
 
