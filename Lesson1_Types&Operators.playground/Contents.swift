@@ -90,7 +90,7 @@ if hungry || thereIsPie {
 // Could be rewritten like so ...
 hungry ? print("Let's eat!") : print("Let's wait")
 
-// THis statement ...
+// This statement ...
 // if hungry || thereIsPie {
 //     print("Let's eat!")
 // } else {
@@ -100,6 +100,24 @@ hungry ? print("Let's eat!") : print("Let's wait")
 
 // Could be rewritten like so ...
 hungry || thereIsPie ? print("Let's eat!") : print("Let's wait.")
+
+// Ternary statments can also be used as expressions.
+let sandwichPrice = 5.0
+var tax = true
+var lunchPrice = sandwichPrice + (tax ? 0.50 : 0)
+
+// This syntax is especially handy for calculations with conditions like this.
+
+// There's one ting that ternary operator can do that and if else statement can not. The entire turn a restatment is an expression, it evaluates a single value so we can insinuate it right another expression. 
+
+// Like this so the lunch prices now caluclated using the sandwich price, and if tax is true will add an additonal fifty cents. Otherwise we add nothing.
+
+
+
+
+
+
+
 
 
 
