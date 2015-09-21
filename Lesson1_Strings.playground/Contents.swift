@@ -43,3 +43,33 @@ All we have to do is:
     2. reassign the dog name vaiable: dogName = "Lil Fankie"
     3. reevaluate our doggie diet string: doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth)lbs of dog food per month"
 */
+
+
+// A String isn't just a String: It's an array of characters, and can sometimes be treated as an NSstring which is class from objective-c
+
+// Let's say we wanted to to identify all of the E's in a given string. Let's say it's a password.
+
+
+// A String is an Array of Characters 
+
+var password = "Meet me in St Louis"
+for character in password {
+    if character == "e" {
+        println("found an e!")
+    } else {
+    }
+}
+
+let newPassword = password.stringByReplaceingOccurencesOfString("e", withString: "3")
+
+
+
+
+
+
+
+
+
+
+
+
