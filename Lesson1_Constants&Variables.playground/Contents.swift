@@ -23,3 +23,9 @@ let age = currentYear - birthYear
 let birthweight = "6 lbs 7 ounces"
 var currentweight = "221lbs"
 var chubbyBaby = UIImageView(named:fat-baby-picture.jpg")!
+
+// Let vs. Var Quiz
+let buildingCapcity = 300
+var attendance = 220
+attendance += 2
+
