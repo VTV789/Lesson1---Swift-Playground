@@ -29,3 +29,9 @@ let buildingCapcity = 300
 var attendance = 220
 attendance += 2
 
+// Two ways of being immutable - #1 Assignment 
+var goat = UIImage(named:"Chinese-New-Year-3.jpg")!
+let yearsOfTheGoat = [1967, 1979, 1991, 2003, 2015]
+let yearsOfTheSheep = [1967, 1979, 1991, 2003, 2015]
+yearsOfTheGoat = yearsOfTheSheep
+
