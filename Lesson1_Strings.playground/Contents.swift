@@ -60,7 +60,7 @@ for character in password {
     }
 }
 
-let newPassword = password.stringByReplaceingOccurencesOfString("e", withString: "3")
+let newPassword = password.stringByReplacingOccurencesOfString("e", withString: "3")
 
 
 
