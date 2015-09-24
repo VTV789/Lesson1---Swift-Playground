@@ -9,6 +9,9 @@ import Foundation
 
 // Set - unordered list of distinct values
 
+
+
+
 // Initializing Arrays
 // The verbose way
 var numbers = Array<Double>()
@@ -19,3 +22,7 @@ moreNumbers = [85.0, 90.0, 95.0]
 
 // Array Literal sytax
 let differentNumbers = [97.5, 98.5, 99.0]
+
+// Array concatenation is uper converient is swift.
+moreNumbers = moreNumbers + differentNumbers
+
