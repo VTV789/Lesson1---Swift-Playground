@@ -35,4 +35,12 @@ roadTripMusic.count
 
 let musician = roadTripMusic[2]
 
+//: ### Dictionary initialization
+// Initializer syntax
+var groupsDict = [String:String]()
+
+// Dictionary literal
+var animalGroupsDict = ["whales":"pod", "geese":"flock", "lions": "pride"]
+
+
 
