@@ -1,4 +1,4 @@
-//: Lesson 3 Exercises - Collections
+//: # Collections
 
 import UIKit
 import Foundation
@@ -9,10 +9,7 @@ import Foundation
 
 // Set - unordered list of distinct values
 
-
-
-
-// Initializing Arrays
+//: ### Initializing Arrays
 // The verbose way
 var numbers = Array<Double>()
 
@@ -20,12 +17,22 @@ var numbers = Array<Double>()
 var moreNumbers = [Double]()
 moreNumbers = [85.0, 90.0, 95.0]
 
-// Array Literal sytax
+// Array literal syntax
 let differentNumbers = [97.5, 98.5, 99.0]
 
-// Array concatenation is uper converient is swift.
-let allNumbers = moreNumbers + differentNumbers
+// Array concatenation is super convenient in Swift.
+moreNumbers = moreNumbers + differentNumbers
 
 // An array can hold any type of object.
-var circuit = [LightSwitch]()
-var circuit = [LivingRoomSwitch, kitchenSwitch, bathSwitch]
+var circuit = [livingRoomSwitch, kitchenSwitch, bathroomSwitch]
+//: ### Array operations: append, insert, remove, count, retrieve
+var roadTripMusic = ["Neil Young","Kendrick Lamar","Flo Rida", "Nirvana"]
+roadTripMusic.append("Rae Sremmurd")
+roadTripMusic.insert("Dej Loaf", atIndex: 2)
+roadTripMusic.removeAtIndex(3)
+roadTripMusic.insert("Keith Urban", atIndex: 3)
+roadTripMusic.count
+
+let musician = roadTripMusic[2]
+
+
