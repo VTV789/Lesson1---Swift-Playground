@@ -79,4 +79,11 @@ if let groupOfWhales = animalGroupsDict["whales"] {
     print("No value found for that key.")
 }
 
+// What happens if the key isn't found?
+if let groupOfSasquatches = animalGroupsDict["Sasquatches"] {
+    print("We saw a \(groupOfSasquatches) of Sasquatches on our hike.")
+} else {
+    print("No value found for that key.")
+}
+
 
