@@ -55,5 +55,17 @@ animalGroupsDict["monkeys"] = "troop"
 animalGroupsDict.count
 print(animalGroupsDict)
 
+// Removing items from a dictionary
+animalGroupsDict["crows"] = nil
+animalGroupsDict
+
+// Updating a value
+animalGroupsDict["monkeys"] = "barrel"
+var group = animalGroupsDict.updateValue("gaggle", forKey: "geese")
+group.dynamicType
+
+animalGroupsDict.updateValue("crash", forKey:"rhinoceroses")
+print(animalGroupsDict)
+
 
 
