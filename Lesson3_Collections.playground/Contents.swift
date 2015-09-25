@@ -46,4 +46,14 @@ var animalGroupsDict = ["whales":"pod", "geese":"flock", "lions": "pride"]
 var averageLifeSpanDict = [String:Range<Int>]()
 var lifeSpanDict = ["African Grey Parrot": 50...70, "Tiger Salamander": 12...15, "Bottlenose Dolphin": 20...30]
 
+//: ### Dictionary operations: insert, remove, count, update, retrieve
+// Adding items to a dictionary
+animalGroupsDict["crows"] = "murder"
+animalGroupsDict["monkeys"] = "troop"
+
+// The count method is available to all collections.
+animalGroupsDict.count
+print(animalGroupsDict)
+
+
 
