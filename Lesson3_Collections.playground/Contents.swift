@@ -67,5 +67,16 @@ group.dynamicType
 animalGroupsDict.updateValue("crash", forKey:"rhinoceroses")
 print(animalGroupsDict)
 
+//Retrieving the value for a particular key
+let groupOfWhales = animalGroupsDict["whales"]
+//: Why would the code below return an optional?
+//:
+//:     animalGroupsDict["whales"]
+// We unwrap a value returned from a dictionary just like we would unwrap any other optional.
+if let groupOfWhales = animalGroupsDict["whales"] {
+    print("We saw a \(groupOfWhales) of whales from the boat.")
+} else {
+    print("No value found for that key.")
+}
 
 
